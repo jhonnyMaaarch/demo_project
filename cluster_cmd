@@ -1,0 +1,10 @@
+#!/bin/sh
+
+job_runs=$1
+out_file=$2
+for host in 192.168.4.130 192.168.4.133; do
+        
+    "$job_runs" |&tee -a $out_file	
+    ssh "$host" "$job_runs" |&tee -a $out_file
+
+done
