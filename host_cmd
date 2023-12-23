@@ -1,0 +1,64 @@
+   Static hostname: xcatserver
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 7fe33d305039440b94a33fa391378d32
+           Boot ID: 5b99c6ea2035409d81d2455f9498ab69
+    Virtualization: oracle
+  Operating System: Red Hat Enterprise Linux 8.9 (Ootpa)
+       CPE OS Name: cpe:/o:redhat:enterprise_linux:8::baseos
+            Kernel: Linux 4.18.0-513.9.1.el8_9.x86_64
+      Architecture: x86-64
+ Static hostname: rhel-vm
+ Pretty hostname: rhel_vm
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 0eeeb637cb624c01b29c6507774d448a
+         Boot ID: 0cdfcdc79b9c44a48942f50cfaa64313
+  Virtualization: oracle
+Operating System: Red Hat Enterprise Linux 9.2 (Plow)
+     CPE OS Name: cpe:/o:redhat:enterprise_linux:9::baseos
+          Kernel: Linux 5.14.0-284.25.1.el9_2.x86_64
+    Architecture: x86-64
+ Hardware Vendor: innotek GmbH
+  Hardware Model: VirtualBox
+Firmware Version: VirtualBox
+   Static hostname: xcatserver
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 7fe33d305039440b94a33fa391378d32
+           Boot ID: 5b99c6ea2035409d81d2455f9498ab69
+    Virtualization: oracle
+  Operating System: Red Hat Enterprise Linux 8.9 (Ootpa)
+       CPE OS Name: cpe:/o:redhat:enterprise_linux:8::baseos
+            Kernel: Linux 4.18.0-513.9.1.el8_9.x86_64
+      Architecture: x86-64
+   Static hostname: localhost.localdomain
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 8454e610626548749ed9ff0cce722a03
+           Boot ID: ec1a07330e324d30b93540e40953379d
+    Virtualization: oracle
+  Operating System: Red Hat Enterprise Linux 8.8 (Ootpa)
+       CPE OS Name: cpe:/o:redhat:enterprise_linux:8::baseos
+            Kernel: Linux 4.18.0-477.21.1.el8_8.x86_64
+      Architecture: x86-64
+./cluster_cmd_v2: line 7: uname -a: command not found
+xcatserver
+./cluster_cmd: line 7: uname -a: command not found
+Linux rhel-vm 5.14.0-284.25.1.el9_2.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Jul 20 09:11:28 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux
+./cluster_cmd: line 7: uname -a: command not found
+Linux localhost.localdomain 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Thu Jul 20 08:38:27 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux
+Sun Dec 10 11:35:57 CST 2023
+Sun Dec 10 11:37:54 AM CST 2023
+Sun Dec 10 11:35:58 CST 2023
+Fri Dec 22 06:46:22 CST 2023
+Sun Dec 10 11:36:06 CST 2023
+Sun Dec 10 11:36:51 CST 2023
+./cluster_cmd: line 7: hostname && date: command not found
+rhel-vm
+Sun Dec 10 11:42:22 AM CST 2023
+./cluster_cmd: line 7: hostname && date: command not found
+localhost.localdomain
+Fri Dec 22 06:50:30 CST 2023
+./cluster_cmd: line 7: rpm -qa | grep pbs && rpm -qa | grep openmpi: command not found
+./cluster_cmd: line 7: rpm -qa | grep pbs && rpm -qa | grep openmpi: command not found
