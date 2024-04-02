@@ -1,0 +1,22 @@
+#!/bin/bash
+# This module will require number of inputs
+# This module will add number inputs to an array
+# and operate on them to produce an average
+# scripts <Number_of_input>
+
+I=0
+user_Num=0
+for (( num=$1; I<$num; I++ )); do
+    echo "Enter number: "
+    read input_num
+    user_Num=$(( $user_Num + $input_num ))
+done
+
+avg_num=$(( user_Num / num ))
+echo " Number is $num"
+echo "Sum of all inputs is: $user_Num "
+echo "The average is, $avg_num "
+
+
+
+

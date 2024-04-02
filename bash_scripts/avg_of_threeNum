@@ -1,0 +1,14 @@
+#!/bin/bash
+#The user will provide three numbers
+#The module will calculate and print out the avergae of the three numbers
+
+
+aggr_num=$(( $1 + $2 + $3 ))
+num_inputs=3
+avg_num=$(( $aggr_num / $num_inputs ))
+
+echo $avg_num
+
+
+
+
