@@ -1,0 +1,17 @@
+processing newVM
+./cluster_cmd_v3: line 8: iostat && free -h: command not found
+Linux 5.14.0-284.30.1.el9_2.x86_64 (newVM) 	06/08/2024 	_x86_64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.12    0.01    0.20    0.01    0.00   99.67
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+dm-0              0.52         3.33        14.11         0.00     981082    4155526          0
+dm-1              0.00         0.01         0.00         0.00       2220          0          0
+sda               0.45         3.53        14.12         0.00    1037898    4157574          0
+
+
+               total        used        free      shared  buff/cache   available
+Mem:           3.6Gi       1.3Gi       1.4Gi        37Mi       1.1Gi       2.2Gi
+Swap:          3.0Gi          0B       3.0Gi
+./cluster_cmd_v3

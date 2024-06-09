@@ -1,0 +1,17 @@
+processing proj_server
+./cluster_cmd_v3: line 8: iostat && free -h: command not found
+Linux 4.18.0-477.21.1.el8_8.x86_64 (proj_server) 	06/08/2024 	_x86_64_	(3 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.34    0.02    0.69    0.01    0.00   98.94
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+scd0              0.00         0.00         0.00          2          0
+sda               0.64        11.27        15.86    3461027    4873391
+dm-0              0.68        10.78        13.47    3311579    4136773
+dm-1              0.68         0.32         2.39      99236     734524
+
+              total        used        free      shared  buff/cache   available
+Mem:          4.3Gi       1.9Gi       592Mi       246Mi       1.8Gi       1.9Gi
+Swap:         4.0Gi       548Mi       3.5Gi
+./cluster_cmd_v3

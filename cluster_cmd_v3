@@ -1,0 +1,12 @@
+#!/bin/sh
+
+job_runs="iostat && free -h"
+#out_file=$host
+for host in xcatserver proj_server newVM; do
+    out_file="/mnt/proj_server/$host"_v3.out""
+    echo processing $host >> $out_file    
+    "$job_runs" |&tee -a $out_file	
+    ssh "$host" "$job_runs" |&tee -a $out_file
+    echo $0 >> $out_file
+
+done
